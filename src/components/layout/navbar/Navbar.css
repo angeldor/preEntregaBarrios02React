@@ -13,6 +13,10 @@
   font-family: "Roboto";
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
+#link {
+  text-decoration: none;
+  color: #dcd6f7;
+}
 
 .categories {
   display: flex;
@@ -24,7 +28,7 @@
 .categories li {
   background-color: #dcd6f7;
   padding: 10px 20px;
-  color: #424874;
+  color: #6b5fda;
   width: 170px;
   display: flex;
   justify-content: center;
