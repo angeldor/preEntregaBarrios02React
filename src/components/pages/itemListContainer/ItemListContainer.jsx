@@ -1,6 +1,6 @@
 import "./ItemListContainer.css";
-import { useState } from "react";
-import { productos } from "../../../productsMock";
+import { useState, useEffect } from "react";
+import { products } from "../../../productsMock";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
 
@@ -8,7 +8,6 @@ const ItemListContainer = () => {
   const [items, setItems] = useState([]);
 
   const { categoryName } = useParams();
-  console.log(categoryName ? "estoy intentando filtrar" : "Estoy en el home");
 
   useEffect(() => {
     const productosFiltrados = products.filter(

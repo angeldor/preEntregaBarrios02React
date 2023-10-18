@@ -2,6 +2,8 @@ import ItemListContainer from "./components/pages/ItemListContainer/ItemListCont
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./components/pages/notFound/NotFound";
 import Layout from "./components/layout/Layout";
+import Cart from "./components/pages/Cart/Cart";
+import ItemDetailContainer from "./components/pages/ItemDetailContainer/ItemDetailContainer";
 
 function App() {
   const titulo = "Bienvendido a nuestra tienda de juguetes!";
@@ -9,8 +11,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<ItemListContainer titulo={titulo} />} />
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/itemDetail/:id" element={<ItemDetailContainer />} />
         </Route>
+        <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

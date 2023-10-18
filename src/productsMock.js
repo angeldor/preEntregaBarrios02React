@@ -1,34 +1,34 @@
-export let productos = [
+export let products = [
     {
         id: 1,
-        tittle: "Peluche Stich",
+        title: "Peluche Stich",
         price: 15000,
         stock: 10,
         description: "Peluche de Stich gigante de la película de Disney Lilo y Stich",
         category: "peluches",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697593776/peluche-stich-azul.jpg"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649150/imagenesCorregidas/lfvtoayo0jskvar2vayg.jpg"
     },
     {
         id: 2,
-        tittle: "Peluche Snorlax",
+        title: "Peluche Snorlax",
         price: 26000,
         stock: 5,
         description: "Peluche gigante del pokemon Snorlax",
         category: "peluches",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697594164/peluches/peluche-pokemon-snorlax.webp"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649149/imagenesCorregidas/kkjubzfe989zw1zkw3gi.webp"
     },
     {
         id: 3,
-        tittle: "Peluche Oso Te Amo",
+        title: "Peluche Oso Te Amo",
         price: 30000,
         stock: 6,
         description: 'Oso de peluche con dedicatoria "Te amo"',
         category: "peluches",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697594163/peluches/peluche-oso-teamo.webp"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649148/imagenesCorregidas/d9mivui0qsxvuc2a7d9c.webp"
     },
     {
         id: 4,
-        tittle: "Kit construyelo tu mismo!",
+        title: "Kit construyelo tu mismo!",
         price: 45000,
         stock: 4,
         description: "Kit de maquinas de construccion armables tipo mecano",
@@ -37,7 +37,7 @@ export let productos = [
     },
     {
         id: 5,
-        tittle: "Bulldozer para niños",
+        title: "Bulldozer para niños",
         price: 13000,
         stock: 10,
         description: "Maquina Bulldozer para niños",
@@ -46,7 +46,7 @@ export let productos = [
     },
     {
         id: 6,
-        tittle: "Blocky Mi ciudad",
+        title: "Blocky Mi ciudad",
         price: 35000,
         stock: 8,
         description: "Kit blocky Mi ciudad con modelos de edificios y construcciones varias",
@@ -55,79 +55,79 @@ export let productos = [
     },
     {
         id: 7,
-        tittle: "TEG",
+        title: "TEG",
         price: 32000,
         stock: 12,
         description: "TEG Plan táctico y estratégico de la guerra. Clásico juego de mesa",
         category: "juegosdemesa",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595374/juegos-de-mesa/teg.jpg"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649151/imagenesCorregidas/xz6pltmqirg7r5bu2m7r.jpg"
     },
     {
         id: 8,
-        tittle: "Pictureka",
+        title: "Pictureka",
         price: 25000,
         stock: 14,
         description: "¡Encuentralo rápido, grita el primero",
         category: "juegosdemesa",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595374/juegos-de-mesa/pictureka.jpg"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649150/imagenesCorregidas/fov63bgyigi77lpmninv.jpg"
     },
     {
         id: 9,
-        tittle: "Monopoly",
+        title: "Monopoly",
         price: 19995,
         stock: 25,
         description: "¡Un clásico! Reuní a tus amistades para disfrutar de horas de risas y diversión mientras juegan a ser agentes inmobiliarios con el Monopoly. Deberán comprar, vender e intercambiar propiedades estratégicamente para aumentar sus fortunas, si te declarás en quiebra... ¡perdiste!",
-        category: "",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595374/juegos-de-mesa/monopoly.jpg"
+        category: "juegosdemesa",
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649148/imagenesCorregidas/fm1wzesljgo98ivvexlb.jpg"
     },
     {
         id: 10,
-        tittle: "Números Educativos",
+        title: "Números Educativos",
         price: 10500,
         stock: 30,
         description: "Tarjetas para aprender los numeros jugando",
         category: "educativos",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595360/educativos/numeros.jpg"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649152/imagenesCorregidas/rekkcovkyojvqisvdtwr.jpg"
     },
     {
         id: 11,
-        tittle: "Pizarra magnetica con letras",
+        title: "Pizarra magnetica con letras",
         price: 12300,
         stock: 25,
         description: "Pizarra magnetica para aprender las letras de manera práctica y didáctica",
         category: "educativos",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595360/educativos/letras.webp"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649150/imagenesCorregidas/umrnb76kbfsf2gltb3bq.webp"
     },
     {
         id: 12,
-        tittle: "Pelota de Voley",
+        title: "Pelota de Voley",
         price: 6700,
         stock: 8,
         description: "Pelota de Voley profesional para uso escolar y deportivo",
         category: "alairelibre",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595309/al-aire-libre/pelota-voley.jpg"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649149/imagenesCorregidas/fzv1f1lausexowkt1z9g.jpg"
     },
     {
         id: 13,
-        tittle: "",
+        title: "Pelota Futbol Qatar 2022",
         price: 8700,
         stock: 12,
         description: "Pelota Nro 5 de qatar 2022 FIFA WORLD CUP",
         category: "alairelibre",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595308/al-aire-libre/pelota-futbol-qatar.jpg"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649147/imagenesCorregidas/vtsieqsto0yukujlhqiw.jpg"
     },
     {
         id: 14,
-        tittle: "Pelota Futbol Wilson",
+        title: "Pelota Futbol Wilson",
         price: 18990,
         stock: 6,
         description: "Para los puristas del fútbol, el balón de fútbol del Pentágono es una versión moderna de un diseño de balón atemporal que sentó las bases del hermoso juego",
         category: "alairelibre",
-        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595308/al-aire-libre/pelota-wilson.webp"
+        img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649148/imagenesCorregidas/ku9km7c6v7kephulvuga.webp"
     },
     {
         id: 15,
-        tittle: "Frisbee Profesional Pro Classic",
+        title: "Frisbee Profesional Pro Classic",
         price: 3500,
         stock: 11,
         description: "Frisbee Deportivo Profesional. Especial para jugar ULTIMATE. Ideal para entretener a lo más pequeños, jugar con tus mascotas, divertirte con amigos y en familia.",
@@ -136,7 +136,7 @@ export let productos = [
     },
     {
         id: 16,
-        tittle: "Kit 3 figuras Star Wars",
+        title: "Kit 3 figuras Star Wars",
         price: 75300,
         stock: 3,
         description: "Kit de 3 figuras de Star Wars oferta Darth Vader, Kylo Ren, Sith Trooper",
@@ -145,7 +145,7 @@ export let productos = [
     },
     {
         id: 17,
-        tittle: "Figura Superman",
+        title: "Figura Superman",
         price: 22300,
         stock: 5,
         description: "Figura de accion de Superman, New 52",
@@ -154,7 +154,7 @@ export let productos = [
     },
     {
         id: 18,
-        tittle: "Figura Darth Vader Star Wars Limited Edition",
+        title: "Figura Darth Vader Star Wars Limited Edition",
         price: 56500,
         stock: 2,
         description: "Figura Darth Vader de edición limitada serie Obi Wan Kenobi",
@@ -163,7 +163,7 @@ export let productos = [
     },
     {
         id: 19,
-        tittle: "Figura impresa en 3D Batman",
+        title: "Figura impresa en 3D Batman",
         price: 12000,
         stock: 99,
         description: "Figura impresa en 3D Batman en PLA o ABS segun el pedido y el color",

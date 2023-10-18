@@ -2,7 +2,7 @@ import "./Navbar.css";
 import CartWidget from "../../common/cartWidget/CartWidget";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import ToysIcon from "@mui/icons-material/Toys";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
@@ -16,17 +16,19 @@ export const Navbar = () => {
           </h2>
         </Link>
         <ul className="categories">
-          <li>Peluches</li>
+          <Link to="/">
+            <li>Peluches</li>
+          </Link>
           <li>Construcción</li>
           <li>Juegos de Mesa</li>
           <li>Educativos</li>
           <li>Al Aire Libre</li>
           <li>Decorativos</li>
         </ul>
-        <CartWidget className="cart" />
+        <Link to="/cart">
+          <CartWidget className="cart" />
+        </Link>
       </div>
-
-      {/* <Outlet /> */}
     </>
   );
 };
