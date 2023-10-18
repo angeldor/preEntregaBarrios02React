@@ -16,14 +16,24 @@ export const Navbar = () => {
           </h2>
         </Link>
         <ul className="categories">
-          <Link to="/">
+          <Link to="/category/peluches">
             <li>Peluches</li>
           </Link>
-          <li>Construcción</li>
-          <li>Juegos de Mesa</li>
-          <li>Educativos</li>
-          <li>Al Aire Libre</li>
-          <li>Decorativos</li>
+          <Link to="/category/construccion">
+            <li>Construcción</li>
+          </Link>
+          <Link to="/category/juegosdemesa">
+            <li>Juegos de Mesa</li>
+          </Link>
+          <Link to="/category/educativos">
+            <li>Educativos</li>
+          </Link>
+          <Link to="/category/alairelibre">
+            <li>Al Aire Libre</li>
+          </Link>
+          <Link to="/category/decorativos">
+            <li>Decorativos</li>
+          </Link>
         </ul>
         <Link to="/cart">
           <CartWidget className="cart" />
