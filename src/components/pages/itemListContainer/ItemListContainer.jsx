@@ -1,5 +1,7 @@
 import "./ItemListContainer.css";
-import React from "react";
+import { useState } from "react";
+import { productos } from "../../../productsMock";
+import { useParams } from "react-router-dom";
 
 const ItemListContainer = (props) => {
   return (

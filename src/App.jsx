@@ -1,4 +1,4 @@
-import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer";
+import ItemListContainer from "./components/pages/ItemListContainer/ItemListContainer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./components/pages/notFound/NotFound";
 import Layout from "./components/layout/Layout";
